@@ -1,3 +1,8 @@
 def my_select(collection)
- # your code here!
-end
+  
+  my_select(nums) do |number|
+ 
+ return Proc.new {|n| n*factor }
+
+
+end 
