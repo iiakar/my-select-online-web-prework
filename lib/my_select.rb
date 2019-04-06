@@ -7,3 +7,4 @@
   end
   new_collection
 end
+yield_arg_to("Hello") {|s| s + " World" }
